@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ceb6c8e-eb1a-40dc-8337-0fb6ac99fe1d">
+  <name>УправлениеИТФирмой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ИТ-фирмой</value>
+  </synonym>
+  <comment>УправлениеИТФирмой для продажи лицензий ХД</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="947afa1d-a73d-420d-bbee-31750cb31a44"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9e25ee6a-2488-4bb4-8b15-a98a7a923e1a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5f8e8c90-a4ba-4f54-9c58-d61fd7409adf"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="210fb1bd-4084-4e9e-9cc8-3cc2f630d465"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="46534a88-30e0-4250-a441-f95640a7dd89"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b29eae61-fedb-4c50-8e1c-e175d44f2227"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7089b108-caee-4a8f-92ad-f5dfe5c42973"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>ООО Нетология</vendor>
+  <version>1.0.0.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value> IT-компания, разработчик одноимённой low-code BPM-системы</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>автоматизация бизнес-процессов: документооборота, управления проектами, CRM, корпоративных коммуникаций</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="e7936b61-76ae-41d2-b42f-df6621f46ce8">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Отчётность</subsystems>
+  <subsystems>Subsystem.Сделки</subsystems>
+  <subsystems>Subsystem.Служебное</subsystems>
+  <styleItems>StyleItem.ШрифтПомеченныхНаУдаление</styleItems>
+  <styleItems>StyleItem.ЦветПомеченныхНаУдаление</styleItems>
+  <sessionParameters>SessionParameter.ВремяНачалаСеанса</sessionParameters>
+  <sessionParameters>SessionParameter.СотрудникТекущегоПользователя</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.ДобавлениеИзменениеСотрудников</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
+  <commonModules>CommonModule.КонтекстВыполненияКлиентСервер</commonModules>
+  <commonModules>CommonModule.СеансыВызовСервера</commonModules>
+  <commonModules>CommonModule.СотрудникиСервер</commonModules>
+  <commonModules>CommonModule.СотрудникиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСИНН</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыСервер</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСФормамиКлиент</commonModules>
+  <functionalOptions>FunctionalOption.ВестиРасчетЗарплаты</functionalOptions>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.Денежный</definedTypes>
+  <commonCommands>CommonCommand.Печать</commonCommands>
+  <commonCommands>CommonCommand.ОтчетПоСкладам</commonCommands>
+  <constants>Constant.ВестиРасчетЗарплаты</constants>
+  <constants>Constant.ВерсияКонфигурации</constants>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ЗаказыПокупателей</documents>
+  <documents>Document.Событие</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <sequences>Sequence.СкладскиеДокументы</sequences>
+  <documentJournals>DocumentJournal.ДвиженияТоваров</documentJournals>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ТипНоменклатуры</enums>
+  <enums>Enum.ТипыСобытий</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <reports>Report.ОстаткиПоСкладам</reports>
+  <reports>Report.ОтчётПоПродажам</reports>
+  <reports>Report.ИсторияЦенПродажи</reports>
+  <reports>Report.АктуальныеЦеныПоставщиков</reports>
+  <reports>Report.ОстаткиТоваров</reports>
+  <dataProcessors>DataProcessor.Калькулятор</dataProcessors>
+  <dataProcessors>DataProcessor.ПроверкаДлительностиСеанса</dataProcessors>
+  <dataProcessors>DataProcessor.УстановкаЦенПродажи</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаПрайслистаКонтрагента</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныПродажиНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>

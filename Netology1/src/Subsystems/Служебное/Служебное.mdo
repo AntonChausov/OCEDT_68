@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b88c4e2-058d-4a66-89bf-32b84c816972">
+  <name>Служебное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебное</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ВерсияКонфигурации</content>
+  <content>InformationRegister.ЦеныПродажиНоменклатуры</content>
+  <content>InformationRegister.ЦеныПоставщиков</content>
+</mdclass:Subsystem>
