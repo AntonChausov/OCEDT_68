@@ -18,4 +18,5 @@
   <content>Enum.ТипыКонтактнойИнформации</content>
   <content>Catalog.ВидыКонтактнойИнформации</content>
   <content>Catalog.Производители</content>
+  <content>Catalog.Автомобили</content>
 </mdclass:Subsystem>
